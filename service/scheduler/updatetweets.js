@@ -3,10 +3,10 @@ var request = require('request');
 
 var searchUrl = "https://api.twitter.com/1.1/search/tweets.json?q=%23Dev4Devs";    //search for #Dev4Devs
     
-var consumerKey = 'dfb378kPBcl91sWUEcIfDw',
-    accessToken= '32851865-XacTT9P8fdQBYerA6UCMV80geGyEGSu5VjoyLKrPk',
-    consumerSecret = 'WcdLglqEkWGSJfDQR31IH2qpOWqEidZHPgG1XQHT8w',
-    accessTokenSecret = 'k09JFV6dBNrFFypFLhOpS12BygAPUrCsuiC6uZw4';
+var consumerKey = '<consumerKey here>',
+    accessToken= '<accessToken here>',
+    consumerSecret = '<consumerSecret here>',
+    accessTokenSecret = '<accessTokenSecret here>';
 
 function UpdateTweets() {   
     appendLastTweetId(searchUrl, twitterRequest);
