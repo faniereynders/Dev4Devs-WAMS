@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="41f046d8-0cce-4d2e-a447-48cee2ea0c92" Version="1.0.0.0" Publisher="CN=Fanie" />
+  <Properties>
+    <DisplayName>Dev4Devs-Wams</DisplayName>
+    <PublisherDisplayName>Fanie</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Dev4Devs-Wams" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Dev4Devs-Wams" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="images\WideLogo.png" />
+        <SplashScreen Image="images\splash.png" BackgroundColor="#003300" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
