@@ -1,4 +1,4 @@
-﻿var mobileService = new WindowsAzure.MobileServiceClient("https://dev4devs-wams.azure-mobile.net/", "zBAZEWCCEIdzETdtiEQInUVaNuXaTS18");
+﻿var mobileService = new WindowsAzure.MobileServiceClient("https://<service-url>.azure-mobile.net/", "<app-key>");
 var feed = mobileService.getTable('Tweets');
 
 var refreshFeed = function () {
